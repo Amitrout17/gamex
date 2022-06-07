@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.navbar{
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+nav{
+    flex-grow: 1;
+    text-align: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px 0;
+    margin-bottom: 0px;
+}
+.col1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    display: flex;
+}
+.col1 h2{
+    font-size: 54px;
+}
+.col1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+.col1 p{
+    font-size: 17px;
+    color: #b7b7b7;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.col1 h4{
+    margin: 10px 0;
+    font-size: 20px
+}
+.col2{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.controller{
+    width: 80%;
+}
+.line{
+    background: linear-gradient(to bottom ,#fb5283,#ff3527);
+    height: 285px;
+    width: 20px;
+}
+.content{
+    margin-left: 30px;
+}
+.content button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right,#fb5283,#ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    color: black;
+    background: linear-gradient(to left,#fb5283,#ff3527);
+}
+.content .fa-shopping-bag{
+    position: relative;
+    right: 15px;
+    font-size: 17px;
+}
+.color-box{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom ,#fb5283,#ff3527);
+    height: 433px;
+    width: 94px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.color-box:hover{
+    color: black;
+    background: linear-gradient(to top,#fb5283,#ff3527);
+}
+.color-box p{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}    
+.color-box i{
+    padding-right: 10px;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts i{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    margin: 20px 19px;
+}
+.contacts i:hover{
+    color: #fb5283;
+}
+.slide1 .row2{
+    width: 30%;
+    position: relative;
+    bottom: 400px;
+    margin-left: 105px;
+    margin-bottom: -230px;
+}
+.slide1 .row2 h1{
+    font-size: 62px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.slide1 .row2 p{
+    font-size: 34px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.slide1 .row2 button,.slide3 .row2 button{
+    background: linear-gradient(to right, #c49026    , #5e200d);
+    width: 124px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    margin-right: 12px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.slide1 .row2 i{
+    margin-left: 3px;
+}
+.slick-dots {
+    position: relative;
+    bottom: 20px;
+    margin-bottom: -200px;
+}
+.slide2 .row2 {
+    width: 100%;
+    position: relative;
+    bottom: 341px;
+    margin-bottom: -167px;
+    color: white;
+    margin-left: 121px;
+}
+.slide2 .row2 button{
+    background: linear-gradient(to right, #1fd2f7    , #114eb3
+    );
+    width: 124px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    margin-right: 12px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.slide2 .row2 button i,.slide3 .row2 button i{
+    margin-left: 3px;
+}
+.slide3 .row2{
+    float: right;
+    margin-right: 190px;
+    position: relative;
+    bottom: 400px;
+    margin-bottom: -280px;
+}
+.slide3 .row2 h2{
+    font-size: 60px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.slide3 .row2 p{
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.slide3 .row2 button{
+    background: linear-gradient(to right, #f49406   ,#771d02);
+}
+.games,.game1{
+    display: flex;
+}
+.part1 ,.part2{
+    width: 50%;
+    margin: 3px;
+}
+.part1 ,.part2{
+    display: flex;
+    flex-direction: column;
+}
+.game1 ,.game4{
+    display: flex;
+}
+.part1-s1,.part1-s2{
+    width: 50%;
+}
+.game2{
+    width: 50%;
+}
+.part1-s1{
+    background: linear-gradient(to right, #250061   ,#746afc);
+    height: 99%;
+}
+.part1-s1 h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    font-size: 34px;
+}
+.part1-s1 p{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+}
+.part1-s1{
+    color: white;   
+}
+.part1-s1 button{
+    background-color: black;
+    border-style: none;
+    color: white;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+}
+.game2 .game2-content{
+    margin-left: 23px;
+    position: relative;
+    bottom: 295px;
+    color: white;
+    margin-bottom: -283px;
+    width: 193%;
+    height: 280px;
+}
+.game3 .game2-content{
+    position: relative;
+    bottom: 295px;
+    color: white;
+    padding: 16px 12px 16px 48px;
+    margin-bottom: -260px;
+}
+.game2-content h1{
+    font-size: 54px;
+    padding: 3px 0px;
+}
+.game2-content p{
+    font-size: 29px;
+    padding: 24px 0px 4px;
+}
+.game2-content button{
+    font-size: 15px;
+    margin: 16px 0 0 ;
+    border-style: none;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+}
+.game2-content i{
+    padding-left: 6px;
+}
+.part2 .game3 .game2-content{
+    margin-bottom: -222px;
+}
+.game4-content{
+    background: linear-gradient(to bottom, #250061   ,#746afc);
+    width: 50%;
+    color: white;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.game4-content h1{
+    font-size: 37px;
+    margin-bottom: 12px;
+}
+.game4-content p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.game4-content button{
+    font-size: 15px;
+    margin: 16px 0 0 ;
+    border-style: none;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+.slide2 .row2 h1{
+    font-size: 54px;
+    letter-spacing: 2px;
+}
+.slide2 .row2 p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media(max-width:1017px)
+{
+    .col1 h2{
+        font-size: 45px;
+    }
+    .col1{
+        margin-left: 80px;
+    }
+    .color-box{
+        height: 350px;
+    }
+}
+@media(max-width:888px)
+{
+    nav ul li a{
+        letter-spacing: 0px;
+    }
+    .col1{
+        margin-left: 40px;
+    }
+}
+@media(max-width:1457px)
+{
+    .line{
+        height: 318px;
+    }
+}
+@media only screen and (max-width:700px) {  
+    nav ul{
+        width: 100%;
+        background: linear-gradient(to right,#fb5283,#ff3527);
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        text-align: left;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .row{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .menu-icon{
+        display: block;
+    }    
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .col1{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .col2{
+        width: 100%;
+    }
+    .slider{
+        transition: 0.5s;
+    }
+    .navbar{
+        margin-bottom: -30px;
+    }
+}
+

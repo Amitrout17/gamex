@@ -1,0 +1,145 @@
+.game1-sm{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+.game1-sm .sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 40%;
+    background: linear-gradient(to right, #250061   ,#746afc);
+    color: white;
+}
+.game1-sm .sec2{
+    width: 60%;
+}
+.game1-sm .sec1 h1{
+    padding: 30px;
+    letter-spacing: 1px;
+}
+.game1-sm .sec1 p{
+    margin: 0px 30px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.game1-sm .sec1 button{
+    font-size: 15px;
+    margin-left: 32px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+}
+.game2-sm{
+    margin: 5px 0;
+}
+.game2-sm .sec2{
+    color: white;
+    position: relative;
+    bottom: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -227px;
+}
+.game2-sm .sec2 h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-bottom: 21px;
+}
+.game2-sm .sec2 p{
+    font-size: 35px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+.game2-sm .sec2 button{
+    border-style: none;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 31px;
+    padding: 10px;
+    cursor: pointer;
+}
+.game3-sm{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 5px;
+}
+.game3-sm .sec2{
+    background: linear-gradient(to right, #250061   ,#746afc);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 40%;
+}
+.game3-sm .sec1{
+    width: 60%;
+}
+.game3-sm .sec2 h1{
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.game3-sm .sec2 p{
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 0 33px;
+}
+.game3-sm .sec2 button{
+    font-size: 15px;
+    margin-left: 32px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 19px;
+}
+.game4-sm .sec1{
+    margin-bottom: -161px;
+}
+.game4-sm .sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    margin-bottom: -79px;
+}
+.game4-sm .sec2 h1{
+    font-size: 52px;
+    letter-spacing: 1px;
+}
+.game4-sm .sec2 p{
+    font-size: 32px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.game4-sm .sec2 button{
+    font-size: 15px;
+    border-style: none;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+}

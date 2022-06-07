@@ -1,0 +1,263 @@
+/* code for media query of games section for medium devices */
+.games-sm{
+    display: none;
+}
+@media screen and (max-width: 1436px) {
+    .part2 .game3 .game2-content {
+        margin-bottom: -256px;
+    }
+}
+@media screen and (max-width: 1372px) {
+    .part1-s1 h1 {
+        padding-left: 45px;
+        padding-bottom: 5px;
+    }
+    .part1-s1 p {
+        padding-left: 45px;
+        padding-bottom: 11px;
+    }
+    .part1-s1 button {
+        margin-left: 45px;
+    }
+}
+@media screen and (max-width: 1258px) {
+    .part1-s1 h1 {
+        padding-left: 32px;
+        padding-bottom: 7px;
+        padding-top: 23px;
+        padding-right: 10px;
+    }
+    .part1-s1 p {
+        padding-left: 33px;
+        padding-bottom: 11px;
+        padding-right: 10px;
+    }
+    .part1-s1 button {
+        margin-left: 32px;
+    }
+    .game4-content h1 {
+        font-size: 32px;
+    }
+    .game4-content p {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 2px;
+    }
+    .game4-content button {
+        letter-spacing: 2px;
+        font-size: 16px;
+        width: 90%;
+    }    
+}
+@media screen and (max-width: 1114px) {
+    .games{
+        display: none;
+    }
+    .games-sm{
+        display: block;
+    }
+    .game4-sm{
+        margin-bottom: 66px;
+    }
+}
+/* now code for media query for the game section of smaller devices  */
+@media screen and (max-width: 810px) {
+    .game1-sm .sec1 h1 {
+        padding: 9px;
+        letter-spacing: 0px;
+        font-size: 27px;
+    }
+    .game1-sm .sec1 p {
+        font-size: 19px;
+        margin-left: 9px;
+        margin-bottom: 15px;
+    }
+    .game1-sm .sec1 button {
+        margin-left: 9px;
+        font-size: 16px;
+    }
+    .game3-sm .sec2 h1 {
+        margin-left: 22px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .game3-sm .sec2 p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-left: 22px;
+        margin: 11px 0px;
+    }
+    .game3-sm .sec2 button {
+        margin-left: 22px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .game2-sm .sec2 h1 {
+        font-size: 65px;
+    }
+    .game2-sm .sec2 p {
+        font-size: 30px;
+    }
+    .game2-sm .sec2 button{
+        font-size: 23px;
+    }
+    .game2-sm .sec2 {
+        margin-bottom: -207px;
+    }
+}
+@media screen and (max-width: 673px)
+{
+    .game2-sm .sec2 {
+        margin-bottom: -242px;
+    }
+}
+@media screen and (max-width: 655px)
+{
+    .game1-sm .sec1 h1 {
+        padding: 9px;
+        letter-spacing: 0px;
+        font-size: 22px;
+    }
+    .game1-sm .sec1 p {
+        font-size: 17px;
+        margin-left: 9px;
+        margin-bottom: 15px;
+    }
+    .game1-sm .sec1 button {
+        margin-left: 9px;
+        font-size: 13px;
+    }
+    .game3-sm .sec2 h1 {
+        font-size: 23px;
+    }
+    .game3-sm .sec2 p {
+        font-size: 15px;
+
+    }
+    .game3-sm .sec2 button {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:610px)
+{
+    .game1-sm{
+        display: flex;
+        flex-direction: column;
+    }
+    .game1-sm .sec1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .game1-sm .sec2 {
+        width: 99%;
+    }
+    .game1-sm .sec1 h1 {
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 0px;
+        font-size: 33px;
+    }
+    .game1-sm .sec1 p {
+        margin: 0px;
+        font-size: 21px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .game1-sm .sec1 button {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .game2-sm .sec2 h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .game2-sm .sec2 p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .game2-sm .sec2 button {
+        font-size: 13px;
+    }
+    .game2-sm .sec2 {
+        bottom: 189px;
+        margin-bottom: -112px;
+    }
+    .game3-sm {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5px;
+    }
+    .game3-sm .sec1{
+        width: 100%;
+    }
+    .game3-sm .sec2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .game3-sm .sec2 h1 {
+        font-size: 37px;
+        margin: 0;
+        padding: 14px;
+    }
+    .game3-sm .sec2 p {
+        font-size: 22px;
+        margin: 0;
+        letter-spacing: 3px;
+        text-align: center;
+        padding: 10px 36px;
+        padding-top: 0;
+        padding-bottom: 14px;
+    }
+    .game3-sm .sec2 button {
+        margin: 0;
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+    .game4-sm .sec2 h1 {
+        font-size: 38px;
+        letter-spacing: 1px;
+    }
+    .game4-sm .sec2 p {
+        font-size: 24px;
+    }
+    .game4-sm .sec2 button {
+        font-size: 12px;
+    }
+    .game4-sm .sec2 {
+        bottom: 10px;
+    }
+    .game4-sm {
+        margin-bottom: 103px;
+    }
+}
+@media screen  and (max-width: 417px)
+{
+    .game1-sm .sec1 h1 {
+        padding: 15px;
+        font-size: 25px;
+    }
+    .game1-sm .sec1 p {
+        margin: 0px;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 20px;
+        padding: 5px 10px;
+    }
+    .game3-sm {
+        margin-bottom: -1px;
+    }
+    .game2-sm .sec2 {
+        margin-bottom: -133px;
+    }
+    .game4-sm {
+        margin-bottom: 72px;
+    }
+} 
