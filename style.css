@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.navbar{
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+nav{
+    flex-grow: 1;
+    text-align: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 114px;
+    display: flex;
+}
+.col1 h2{
+    font-size: 54px;
+}
+.col1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+.col1 p{
+    font-size: 17px;
+    color: #b7b7b7;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.col1 h4{
+    margin: 10px 0;
+    font-size: 20px
+}
+.fa-shopping-bag{
+    position: relative;
+    right: 12px;
+}
+.col2{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.controller{
+    width: 80%;
+}
+.line{
+    background: linear-gradient(to bottom ,#fb5283,#ff3527);
+    height: 285px;
+    width: 20px;
+}
+.content{
+    margin-left: 30px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right,#fb5283,#ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    color: black;
+    background: linear-gradient(to left,#fb5283,#ff3527);
+}
+.fa-shopping-bag{
+    position: relative;
+    right: 15px;
+    font-size: 17px;
+}
+.color-box{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom ,#fb5283,#ff3527);
+    height: 433px;
+    width: 94px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.color-box:hover{
+    color: black;
+    background: linear-gradient(to top,#fb5283,#ff3527);
+}
+.color-box p{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}    
+.color-box i{
+    padding-right: 10px;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts i{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    margin: 20px 19px;
+}
+.contacts i:hover{
+    color: #fb5283;
+}
+footer{
+    width: 100%;
+}
+.slide3 .row2 button i{
+    color: rebeccapurple;
+    margin-right: 20px;
+}
+@media(max-width:1017px)
+{
+    .col1 h2{
+        font-size: 45px;
+    }
+    .col1{
+        margin-left: 80px;
+    }
+    .color-box{
+        height: 350px;
+    }
+}
+@media(max-width:888px)
+{
+    nav ul li a{
+        letter-spacing: 0px;
+    }
+    .col1{
+        margin-left: 40px;
+    }
+}
+@media(max-width:1457px)
+{
+    .line{
+        height: 318px;
+    }
+}
+@media only screen and (max-width:700px) {  
+    nav ul{
+        width: 100%;
+        background: linear-gradient(to right,#fb5283,#ff3527);
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        text-align: left;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .row{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .menu-icon{
+        display: block;
+    }    
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .col1{
+        margin-left: 0;
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .row{
+        transition: 0.5s;
+    }
+}
